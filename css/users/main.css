@@ -1,0 +1,241 @@
+#user_inform {
+  margin: 10% auto;
+  border: 1px solid #bbbbbb;
+  padding: 10px 20px;
+}
+.index {
+  font-size: 2rem;
+  margin-bottom: 10px;
+}
+.index_right {
+  font-size: 1.6rem;
+  margin-bottom: 20px;
+}
+.user_icon,
+.main_icon {
+  width: 140px;
+  height: 140px;
+  border-radius: 50%;
+  display: block;
+  font-size: 13rem;
+  margin: 0 auto;
+  text-align: center;
+
+}
+
+p {
+  overflow-wrap: anywhere;
+}
+#user_text p{
+  margin-top: 20px;
+  font-size: 1.5rem;
+}
+#user_text .edit_link,
+#friend_add {
+  font-size: 1.5rem;
+}
+
+
+#book_shelf_container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+.book_container {
+  box-shadow: 5px 5px 10px 1px rgba(150,150,150,0.1);
+  flex-basis: 22%;
+  padding: 10px;
+  margin: 30px auto;
+}
+.book_container .book_image {
+  width: 80%;
+  margin: 0 auto;
+  height: 285px;
+  overflow: hidden;
+  margin: 10px auto;
+  position: relative;
+}
+
+.book_container i {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%,-50%);
+  display: block;
+  line-height: 300px;
+  font-size: 10rem;
+  margin: 0 auto;
+  text-align: center;
+}
+.book_container .book_icon {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%,-50%);
+
+  width: 100%;
+  line-height: 285px;
+  margin: 0 auto;
+}
+#review_create .book_icon {
+  width: 80%;
+
+}
+
+
+/* edit */
+#user_edit .user_icon {
+  margin: 10px auto;
+  font-size: 20rem;
+}
+.user_edit_form {
+  width: 400px;
+  margin: 40px auto 50px;
+  text-align: center;
+}
+.user_edit_form p,
+.user_edit_form input,
+.user_edit_form label {
+
+  width: 200px;
+  margin: 10px auto;
+  display: block;
+}
+p.danger {
+  color: #ff0000;
+}
+textarea {
+  width: 90%;
+}
+
+/* review_book_search */
+#review_book_search form {
+  margin-bottom: 30px;
+}
+#review_book_search table {
+  margin-bottom: 30px;
+}
+.small_icon {
+  width: 80px;
+  font-size: 4rem;
+  text-align: center;
+  display: inline-block;
+}
+.user {
+  border-radius: 50%;
+}
+
+/* review_create, book_create */
+#review_create i,
+#book_create i {
+  display: block;
+  font-size: 9rem;
+  margin: 0 auto;
+  text-align: center;
+}
+#review_create *,
+#book_create * {
+  margin-bottom: 10px;
+  font-size: 1.5rem;
+}
+
+#book_create input {
+  width: 200px;
+  display: block;
+}
+.range-group img {
+  display: inline-block;
+}
+td p {
+  display: inline-block;
+  position: relative;
+  width: 80px;
+  height: 80px;
+  line-height: 80px;
+  overflow: hidden;
+  overflow-wrap: normal; 
+  border-radius: 50%;
+
+}
+td p.recommends_box,
+td p.input {
+  width: 100px;
+  border-radius: 0;
+}
+td p img.small_icon,
+td p i {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  -webkit-transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
+  width: 80px;
+  font-size: 5rem;
+  text-align: center;
+
+
+}
+
+
+
+
+/* midium devices (tablets, 768px) */
+@media screen and (max-width:991px) {
+  .book_container {
+    flex-basis: 50%;
+  }
+  .book_container .book_image {
+    height: 400px;
+  }
+
+
+  #book_shelf_container *{
+    text-align: center;
+  }
+  #book_create .container {
+    width: 200px;
+    margin: 20px auto;
+    display: block;
+  }
+  #book_create i {
+    width: 200px;
+    text-align: center;
+  }
+
+
+}
+
+/* Small devices (tablets, 768px and up) */
+@media screen and (max-width:481px) {
+  .book_container {
+    flex-basis: 100%;
+  }
+  .book_container .book_image {
+    height: auto;
+  }
+  .book_container i,
+  .book_container .book_icon {
+    position: static;
+    display: block;
+    height: auto;
+    transform: translate(0);
+  }
+
+
+
+  #book_shelf_container *{
+    text-align: center;
+  }
+  #book_create .container {
+    width: 200px;
+    margin: 20px auto;
+    display: block;
+  }
+  #book_create i {
+    width: 200px;
+    text-align: center;
+  }
+
+
+}

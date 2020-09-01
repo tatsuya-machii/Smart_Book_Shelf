@@ -1,0 +1,79 @@
+#user_inform {
+  margin: 10% auto;
+  border: 1px solid #bbbbbb;
+  padding: 10px 20px;
+}
+.index {
+  font-size: 2rem;
+  margin-bottom: 10px;
+}
+.index_right strong {
+  display: block;
+  font-size: 1.6rem;
+  margin-bottom: 20px;
+}
+.mb20 {
+  display: inline-block;
+  margin-bottom: 20px;
+}
+thead {
+  font-weight: bold;
+  border: 1px solid #bbbbbb;
+}
+tbody {
+  border: 1px solid #bbbbbb;
+
+}
+tbody tr:nth-child(odd){
+  background-color: #eee;
+}
+tbody td p {
+  line-height: 60px;
+}
+tbody td p.radio {
+  line-height: 30px;
+}
+/* イメージ画像 */
+ p.image_block {
+  overflow: hidden;
+  width: 80px;/* トリミングしたい枠の幅 */
+  height: 80px;
+  position: relative;
+  border-radius: 50%;
+}
+p.image_block img,
+p.image_block i {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  -webkit-transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
+  width: 100%;
+  height: auto;
+  font-size: 4rem;
+  text-align: center;
+}
+td input {
+  margin-top: 20px;
+}
+
+
+.user_icon {
+  width: 140px;
+  height: 140px;
+  border-radius: 50%;
+}
+#user_text p{
+  margin-top: 20px;
+  font-size: 1.5rem;
+}
+#user_text .edit_link,
+#friend_add {
+  font-size: 1.5rem;
+}
+#book_shelf p a {
+  display: inline-block;
+  font-size: 1.5rem;
+  margin-bottom: 50px;
+}
