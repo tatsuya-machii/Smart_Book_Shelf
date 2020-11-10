@@ -45,7 +45,7 @@ session_start();
             <p class="index text-center">アカウント情報</p>
           </div>
           <div class="col-lg-2 col-md-2 col-sm-2 col-xs-12">
-            <img class="user_icon" src="../../img/icon_sample.jpg" alt="ユーザーアイコン"><!-- $user_image -->
+            <i class="fas fa-user main_icon"></i><!-- $user_image -->
           </div>
           <div id="user_text" class="col-lg-9 col-md-9 col-sm-9  col-xs-12 col-lg-offset-1 col-md-offset-1 col-sm-offset-1">
             <p>ID:<?php echo $_SESSION["user"]["id"] ?></p>

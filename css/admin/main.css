@@ -59,10 +59,16 @@ td input {
 }
 
 
-.user_icon {
+.user_icon,
+.main_icon {
   width: 140px;
   height: 140px;
   border-radius: 50%;
+  display: block;
+  font-size: 13rem;
+  margin: 0 auto;
+  text-align: center;
+
 }
 #user_text p{
   margin-top: 20px;
